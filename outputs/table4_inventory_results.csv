@@ -1,0 +1,13 @@
+Scenario,Policy,Stockout Freq (events/day),Fill Rate,Avg Holding Days,Holding Cost (NGN),Stockout Cost (NGN),Total Cost (NGN)
+Baseline,Fixed ROP,0.082,0.934,15.33,27275224.0,23474405.0,50749629.0
+Baseline,AI Dynamic,0.2131,0.8095,5.14,9139727.0,67790041.0,76929768.0
+Baseline,AI Recalibrated,0.2787,0.77,4.41,7844286.0,81853791.0,89698077.0
+Supplier delay (+3d),Fixed ROP,0.1311,0.8856,14.75,26252418.0,40729324.0,66981742.0
+Supplier delay (+3d),AI Dynamic,0.2131,0.8095,5.12,9119709.0,67790041.0,76909751.0
+Supplier delay (+3d),AI Recalibrated,0.2951,0.7432,4.07,7248587.0,91414580.0,98663167.0
+Demand spike (+40%),Fixed ROP,0.082,0.934,15.33,38186021.0,32862957.0,71048978.0
+Demand spike (+40%),AI Dynamic,0.3934,0.627,2.75,6840700.0,185871238.0,192711937.0
+Demand spike (+40%),AI Recalibrated,0.4262,0.6121,2.59,6456225.0,193305762.0,199761987.0
+Transport cost (+20%),Fixed ROP,0.082,0.934,15.33,32730268.0,23474405.0,56204673.0
+Transport cost (+20%),AI Dynamic,0.2131,0.8095,5.14,10967673.0,67790041.0,78757714.0
+Transport cost (+20%),AI Recalibrated,0.2787,0.77,4.41,9413144.0,81853791.0,91266934.0

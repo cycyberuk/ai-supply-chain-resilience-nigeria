@@ -1,0 +1,2 @@
+Model,Accuracy,AUC,Positive class
+Random Forest,0.8737,0.4965,failed/returned
